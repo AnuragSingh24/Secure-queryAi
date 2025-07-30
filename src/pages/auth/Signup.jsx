@@ -56,8 +56,9 @@ const Signup = () => {
         localStorage.setItem('token', res.data.token);
       }
 
-      // Redirect to dashboard
-      navigate('/dashboard');
+      //bug - 2
+      // // Redirect to dashboard
+      // navigate('/');
     } catch (err) {
       setMessage({
         type: 'error',
