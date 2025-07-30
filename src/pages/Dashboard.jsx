@@ -62,7 +62,7 @@ const Dashboard = () => {
   const handleLogout = () => {
     localStorage.removeItem('user');
     localStorage.removeItem('token');
-    window.location.href = 'http://localhost:5173/';
+    window.location.href = 'https://secure-query-ai.vercel.app/';
   };
 
   const renderResponse = () => {
